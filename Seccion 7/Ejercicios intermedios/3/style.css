@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(38, 38, 38);
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+}
+.images{
+    display: flex;
+}
+.images img{
+    margin-top: 20px;
+    border: 2px solid white;
+    margin-left: 20px;
+    width: 715px;
+    transition: 0.3s ease-in-out;
+}
+.images img:hover{
+filter: blur(3px);
+}
+.images img:active{
+filter: blur(0px);
+}

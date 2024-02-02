@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(60, 60, 60);
+}
+
+p {
+    color: yellow;
+}
+
+.mi-clase p {
+    color: greenyellow;
+}
+
+/* aquí el color del p sera verde porque la clase mi-clase y p cuenta con mas especificación que la del elemento p solo*/

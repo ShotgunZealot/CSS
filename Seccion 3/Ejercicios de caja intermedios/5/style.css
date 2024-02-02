@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+header{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+}
+.box{
+    margin-top: 50px;
+    margin-left: 590px;
+    width: fit-content;
+    padding: 4px;
+    height: auto;
+    background-color: black;
+    border: 20px solid;
+    border-width: 20px;
+    border-image: url('https://thumb.ac-illust.com/c8/c8662a272b629080599051b3b7ad5162_t.jpeg');
+    border-image-slice: 80;
+
+}

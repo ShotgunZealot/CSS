@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <header>
+        <h1>PAGINA</h1>
+    </header>
+    <ul>
+        <li><a href="#">Sección 1</a></li>
+        <li><a href="#">Sección 2</a></li>
+        <li><a href="#">Sección 3</a></li>
+        <li><a href="#">Sección 4</a></li>
+    </ul>
+    <div class="tarjeta">
+        <img class="image" src="https://i.etsystatic.com/21210220/r/il/acd278/4847713404/il_1080xN.4847713404_hs4z.jpg"
+            alt="Producto">
+        <div class="contenido">
+            <div class="titulo">RAYGUN MK I</div>
+            <div class="descripcion">"Más ligero que una pluma, pero más del doble de letal."</div>
+            <div class="precio">$19,99</div>
+        </div>
+    </div>
+    <h2>GALERIA</h2>
+    <div class="galeria">
+        <div class="imagen" onclick="abrirLightbox(0)">
+            <img class="miniatura" src="https://i.ebayimg.com/images/g/0aMAAOSw6jJkcf4V/s-l1200.webp" alt="Imagen 1">
+        </div>
+        <div class="imagen" onclick="abrirLightbox(1)">
+            <img class="miniatura"
+                src="https://blasters4masters.com/wp-content/uploads/2023/04/Call-of-Duty-Ray-Gun-Mark-2-prop-replica-gun-10-900x900.jpg"
+                alt="Imagen 2">
+        </div>
+        <div class="imagen" onclick="abrirLightbox(2)">
+            <img class="miniatura" src="https://i.ytimg.com/vi/Ee3RULV99No/maxresdefault.jpg" alt="Imagen 3">
+        </div>
+        <div class="imagen" onclick="abrirLightbox(3)">
+            <img class="miniatura"
+                src="https://i.redd.it/ray-gun-from-cod-zombies-v0-xyfw69q1h08b1.jpg?width=4032&format=pjpg&auto=webp&s=c82a2056f171a4c1212e6ac3420a783cf719abfc"
+                alt="Imagen 4">
+        </div>
+    </div>
+    <div class="lightbox" id="lightbox" onclick="cerrarLightbox()">
+        <img src="" alt="Imagen en tamaño completo" id="imagenLightbox">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

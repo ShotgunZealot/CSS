@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    background-color: rgb(50, 50, 50);
+}
+
+.parent {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    min-width: 100px;
+    background-color: #f0f0f0;
+}
+
+.child {
+    padding: 20px;
+    width: inherit;
+    box-sizing: border-box;
+    background-color: black;
+    border: 1px solid red;
+}

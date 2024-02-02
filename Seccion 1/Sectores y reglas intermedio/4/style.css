@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+ul {
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    background-color: rgb(230, 230, 230);
+}
+
+li {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    color: #222;
+}
+a:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+
+.tarjeta {
+    margin-left: 40%;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contenido {
+    padding: 16px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.descripcion {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.precio {
+    font-size: 18px;
+    color: rgb(0, 150, 0);
+    font-weight: bold;
+}
+
+.process {
+    margin-left: 100px;
+
+}
+
+.barra-progreso {
+    border: 2px solid black;
+    background-color: white;
+    width: 336px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progreso {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 200, 0);
+    border-radius: 8px;
+    transition: width 0.3s ease;
+}
+
+form {
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: rgb(80, 200, 80);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(0, 150, 0);
+}
+

@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(60, 60, 60);
+}
+
+p {
+    color: yellow;
+    font-size: 16px;
+}
+
+.mi-clase p {
+    font-size: 20px;
+}
+
+#mi-id p {
+    font-size: 24px;
+}
+
+/* la regla #mi-id p tiene mas especificad que la regla de clase .mi-clase p y que el elemento p en general por lo tanto el
+tamaño del texto p sera de 24px */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>index</title>
+    <style>
+        .father {
+            font-size: 14px;
+        }
+
+        .father .son {
+            font-size: inherit;
+        }
+
+        .father.font-below-16px .son {
+            font-size: calc(2 * var(--font-size));
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="father">
+        texto padre
+        <p class="son">Texto hijo</p>
+    </div>
+
+    <script>
+        const fatherElement = document.querySelector('.father');
+
+        const fatherFontSize = window.getComputedStyle(fatherElement).fontSize;
+
+        const fatherFontSizeInPixels = parseFloat(fatherFontSize);
+
+        if (fatherFontSizeInPixels < 16) {
+            fatherElement.classList.add('font-below-16px');
+        }
+
+        fatherElement.style.setProperty('--font-size', fatherFontSize);
+    </script>
+
+</body>
+
+</html>

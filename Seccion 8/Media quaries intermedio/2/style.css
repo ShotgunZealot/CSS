@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(29, 29, 29);
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    height: 80px;
+}
+p{
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    padding-left: 50px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+nav a:hover{
+    color: rgb(255, 0, 255);
+    background-color: rgb(50, 50, 50);
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 1.5em;
+        margin-left: 20px;
+        display: flex;
+        position: relative;
+    }
+    nav {
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        top: 80px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 18%;
+        opacity: 0;
+        display: flex;
+    }
+    nav:hover {
+        opacity: 1;
+    }
+    nav a[href="#inicio"]{
+        padding-right: 40px;
+    }
+}

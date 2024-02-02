@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(38, 38, 38);
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+}
+ul{
+    margin-left: 25px;
+}
+ul li{
+    transition: 0.3s ease-in-out;
+}
+ul li:hover{
+    opacity: 0.3;
+}
+ul li:active{
+    opacity: 1;
+    color: yellow;
+}

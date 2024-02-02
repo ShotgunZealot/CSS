@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    height: 70px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list ul {
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+}
+
+.list li {
+    margin-right: 10px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+}
+.list a:hover {
+    background-color: rgb(65, 65, 65);
+
+}
+.repeatedImage{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url('https://static.planetminecraft.com/files/image/minecraft/texture-pack/2023/745/16392311-obsidian-block_s.jpg ');
+    background-repeat: repeat;
+    background-size: auto;
+}

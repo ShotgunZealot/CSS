@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(29, 29, 29);
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 255);
+}
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+@media screen {
+    a[href*="info"] {
+        font-weight: bold;
+        color: rgb(0, 120, 255);
+    }
+    a[href*="info"]:hover {
+        color: orange;
+        font-weight: bold;
+    }
+
+}
+@media print {
+    a[href*="info"] {
+        color: rgb(150, 0, 255);
+        font-style: italic;
+        text-decoration: underline;
+    }
+}

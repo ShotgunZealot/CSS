@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Sixtyfour&display=swap');
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat&family=Sixtyfour&display=swap');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Sixtyfour';
+    src: url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Sixtyfour&display=swap');
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(40, 40, 40);
+}
+
+blockquote {
+    font-family: 'caveat';
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.7);
+    border-left: 6px solid yellow;
+    padding-left: 15px;
+}

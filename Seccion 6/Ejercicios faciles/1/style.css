@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(40, 40, 40);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(60, 60, 60);
+}
+h1{
+    color: red;
+}
+.title{
+    color: blue;
+}
+/* aquí el color azul sera el que se mostrara porque la clase title tiene mas especificad que el elemento h1 */

@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(40, 40, 40);
+}
+
+.font-style {
+    text-align: center;
+}
+
+.font-style-2 {
+    text-align: end;
+}
+.font-style-3 {
+    text-align: justify;
+}

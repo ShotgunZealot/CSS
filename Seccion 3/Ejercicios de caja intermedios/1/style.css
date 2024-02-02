@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+}
+
+.caja {
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 30vw;
+    height: 45vh;
+
+    @media (max-width: 800px) {
+        width: 20vw;
+        height: 30vh;
+        background-color: rgb(0, 255, 140);
+    }
+    @media (max-width: 400px){
+        width: 10vw;
+        height: 15vh;
+        background-color: blue;
+    }
+}

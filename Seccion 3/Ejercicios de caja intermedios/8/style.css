@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+header{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+}
+.box{
+    margin-top: 50px;
+    margin-left: 680px;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    background-color: white;
+    border: 20px solid;
+    border-image: url('https://static.planetminecraft.com/files/image/minecraft/texture-pack/2023/930/16588266-image_xl.webp') 480 repeat;
+}
+.box:hover{
+    border: 20px solid;
+    border-width: 20px;
+    border-image: linear-gradient(to bottom, rgb(255, 0, 255), purple);
+    border-image-slice: 1;
+    background-color: black;
+    transition: 0.8s ease-in;
+}

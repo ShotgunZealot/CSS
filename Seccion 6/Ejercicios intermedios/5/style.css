@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(60, 60, 60);
+}
+
+p, h1 {
+    font-size: 32px;
+}
+
+.mi-clase {
+    color: yellow;
+    font-size: 12px;
+}
+
+/* el tamaño de elemento p y h1 sera de 32px, ya que el elemento p y h1 tiene mas especifidad que la  clase .mi-clase al no estar
+ integrada dentro del p y h1 */
+ .mi-clase p, .mi-clase h1{
+    color: orangered;
+    font-size: 40px;
+}
+/* sin embargo si le especificamos el p y el h1, ahora pasara a tener mas especifidad las reglas de la clase antes que las del p y del h1*/
